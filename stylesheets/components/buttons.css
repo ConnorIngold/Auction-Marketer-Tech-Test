@@ -1,0 +1,28 @@
+.account-button{
+  color: #163963;
+  padding: 10px 15px;
+  background: #e3e3e3;
+  transition: background 0.5s ease;
+}
+
+.account-button:hover{
+  opacity: 1;
+  background: #163963;
+  text-decoration: none;
+  color: #e3e3e3;
+}
+
+.log-out-button{
+  color: #fff;
+  padding: 10px 15px;
+  background: #163963;
+  transition: background 0.5s ease;
+  margin-left: 5px;
+}
+
+.log-out-button:hover{
+  color: #163963;
+  padding: 10px 15px;
+  background: #fff;
+  transition: background 0.5s ease;
+}

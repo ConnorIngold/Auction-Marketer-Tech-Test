@@ -1,0 +1,30 @@
+nav{
+  background-color: #EFEFEF;
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+nav li{
+  display: inline-block !important;
+  text-transform: uppercase;
+  color: #727272;
+}
+
+.navigation a{
+  color: #6d6d6d;
+}
+
+.navigation li{
+  padding: 0px 10px 0px 10px;
+}
+
+
+/* Media queries */
+@media only screen and (max-width: 900px){
+    ul{
+      width: 100%;
+    }
+    ul li{
+        display: block !important;
+    }
+}
