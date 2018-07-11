@@ -7,6 +7,7 @@ body{
   background-color: #fff;
   margin: 0px 90px 0px 90px;
   font-family: 'Arial', serif;
+  font-weight: 400;
 }
 /* getting rid of the bullet points */
 ul{
