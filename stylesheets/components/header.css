@@ -1,5 +1,5 @@
 header{
-  width: 100%;
+  width: auto;
   margin: 35px 0px 35px 0px;
   display: flex;
 }
@@ -9,7 +9,7 @@ header{
 } */
 .header{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100%;
   padding: 0px 90px 0px 90px;
 }
