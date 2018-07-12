@@ -26,3 +26,11 @@
   background: #e3e3e3;
   transition: background 0.5s ease;
 }
+
+
+.bid-now-button{
+  color: #fff;
+  padding: 6px 35px;
+  background: #89c33f;
+  transition: background 0.5s ease;
+}

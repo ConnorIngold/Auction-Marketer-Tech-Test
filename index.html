@@ -31,7 +31,7 @@
 
 
 
-    <nav>
+    <nav class="first-nav">
       <ul class="navigation">
         <li><a href="#">calendar</a></li>
         <li><a href="#">departments</a></li>
@@ -44,91 +44,164 @@
       </ul>
     </nav>
 
-  <section>
 
+  <section>
+    <nav class="second-nav">
+      <ul class="second-navigation">
+        <li><a href="#">PREVIOUS LOT</a></li>
+        <li><a href="#">BACK TO CATALOGUE</a></li>
+        <li><a href="#">NEXT LOT</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <br>
+      <!-- just adding some space between the nav bar and the main content -->
+      <div class="inner-wrapper">
+        <div class="image-wrapper">
+          <img src="images/lot_image.jpg" alt="">
+          <div class="thumbnail">
+            <img src="images/lot_image_thumbnail.jpg" alt="">
+            <img src="images/lot_image_thumbnail.jpg" alt="">
+            <p>HOVER TO ZOOM IN</p>
+            <p>CLICK TO VIEW ENLARGED IMAGE</p>
+          </div>
+        </div>
+        <div class="content-wrapper">
+          <p style="color: #575757;">Lot #1</p>
+          <br>
+          <p class="content">An early 20th century 15ct gold demantoid garnet, amethyst and
+          split pearl pendant, with chain.</p>
+          <div class="price">
+            <h4>£120.00 - £180.00</h4>
+            <div class="bid">
+              <h4>Current Bid: <br>£560</h4>
+              <h4>Max Bid: <br>£560</h4>
+            </div>
+          </div>
+          <div class="bid-now">
+            <h3>Bid Now</h3>
+            <input type="number" name="hi" value="£" placeholder="Your Bid Amount..." maxlength="45" size="45" class="bid-search">
+            <a href="#" class="bid-now-button">BID NOW</a>
+          </div>
+          <table>
+
+              <tr class="first-row">
+                <th>Remaining</th>
+                <th><span id="time">50:00</span></th>
+                <th>Next bid</th>
+                <th>£5000</th>
+              </tr>
+
+              <tr class="bidder-row">
+                <th>Bidders</th>
+                <td>4</td>
+                <th>Bids</th>
+                <td>3</td>
+              </tr>
+            <tr class="data">
+              <td class="recent-bidding">
+              <span>  Recent Bidding History: <br> <a href="">View All Bids</a></span>
+              </td>
+
+                  <td>
+                    <div class="table-column">
+                      <span>£4500</span>
+                      <span>£4500</span>
+                      <span>£4500</span>
+                      <span>£4500</span>
+                    </div>
+                  </td>
+
+                  <td>
+                    <div class="table-column">
+                      <span>123450</span>
+                      <span>123450</span>
+                      <span>123450</span>
+                      <span>123450</span>
+                    </div>
+                  </td>
+
+                  <td>
+                    <div class="table-column">
+                      <span>4m</span>
+                      <span>12m</span>
+                      <span>25m</span>
+                      <span>47m</span>
+                    </div>
+                  </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
   </section>
 
 
-  <footer>
-
-    <div class="left-wrapper">
-      <h2 class="footer-h2"><strong>AUCTION</strong> MARKETER</h2>
-        <ul>
-          <li>Telephone: 01234 567890</p>
-          <li>Email: info@autionmarketer.com</p>
-        </ul>
-    </div>
-
-    <div class="right-wrapper">
-      <div class="social-media">
-        <ul class="social-media">
-          <li>
-            <a href="#">
-              <img src="images/icon_email.jpg">
-            </a>
-          </li>
-          <li>
-            <a href="twitter">
-              <img src="images/icon_twitter.jpg">
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="images/icon_facebook.jpg">
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="images/icon_pinterest.jpg">
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="images/icon_linked-in.jpg">
-            </a>
-          </li>
-        </ul>
-        <div class="legal">
-          <ul>
-            <li>Terms & conditions</li>
-            <li>Pricacy Policy</li>
-            <li>Cookies</li>
-          </ul>
+  <div class="container-fluid">
+      <div class="sign-up">
+        <div class="sign-up-content">
+          <span>Signup to receive regular aution alerts on the items that interest you:</span>
+          <div class="sign-up-fiels">
+            
+          </div>
         </div>
+      </div>
+  </div>
 
+  </section>
+
+  <footer>
+      <div class="left-wrapper">
+        <h2 class="footer-h2"><strong>AUCTION</strong> MARKETER</h2>
+          <ul>
+            <li>Telephone: 01234 567890</p>
+            <li>Email: info@autionmarketer.com</p>
+          </ul>
       </div>
 
-
-    </div>
+      <div class="right-wrapper">
+        <div class="social-media">
+          <ul class="social-media">
+            <li>
+              <a href="#">
+                <img src="images/icon_email.jpg">
+              </a>
+            </li>
+            <li>
+              <a href="twitter">
+                <img src="images/icon_twitter.jpg">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/icon_facebook.jpg">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/icon_pinterest.jpg">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/icon_linked-in.jpg">
+              </a>
+            </li>
+          </ul>
+          <div class="legal">
+            <ul>
+              <li>Terms & conditions</li>
+              <li>Pricacy Policy</li>
+              <li>Cookies</li>
+            </ul>
+          </div>
+        </div>
+      </div>
   </footer>
 
 
 
 
-  <!-- <footer>
-    <div class="first-section">
-      <div class="inner-first-section">
-        <div class="sign-up">
-          <p>Signup to recieve regular auction alerts on the items that interest you:</p>
-        </div>
-        <div class="email-adress">
-          <input type="email" placeholder="Email Address" name="search" class="email-address-form">
-          <input type="submit" name="submit">
-        </div>
-      </div>
-    </div>
-
-    <div class="second-section">
-      <div class="left-side">
-        <h5>AUCTION MARKETER</h5>
-        <br>
-        <ul>
-          <li>Telephone: 01234 567890</p>
-          <li>Email: info@autionmarketer.com</p>
-        </ul>
-      </div>
-    </div>
-  </footer> -->
 </body>
-
 </html>
