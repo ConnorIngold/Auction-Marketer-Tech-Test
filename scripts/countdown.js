@@ -1,4 +1,4 @@
-var upgradeTime = 72801;
+var upgradeTime = 1872801;
 var seconds = upgradeTime;
 function timer() {
     var days        = Math.floor(seconds/24/60/60);
@@ -10,7 +10,7 @@ function timer() {
     if (remainingSeconds < 10) {
         remainingSeconds = "0" + remainingSeconds;
     }
-    document.getElementById('countdown').innerHTML = days + ":" + hours + ":" + minutes + ":" + remainingSeconds;
+    document.getElementById('countdown').innerHTML = days + "d " + hours + ":" + minutes + ":" + remainingSeconds;
     if (seconds == 0) {
         clearInterval(countdownTimer);
         document.getElementById('countdown').innerHTML = "Completed";
