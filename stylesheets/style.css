@@ -171,7 +171,7 @@ td{
 }
 
 .sign-up{
-  height: 100px;
+  height: 80px;
   background-color: #33466a;
   width: 100%;
   margin-right: auto;
@@ -188,6 +188,60 @@ td{
   color: white;
 }
 
+.sign-up-field{
+  width: 50%;
+  display: flex;
+  padding-left: 20px;
+}
+.email-submit{
+  background-color: transparent;
+  border: 0px;
+  font-size: 16px;
+  font-weight: 100;
+  color: white;
+  border-bottom: 1px solid white;
+  width: 100%;
+  padding-bottom: 3px;
+}
+
+/* .email-submit ::-webkit-input-placeholder {
+    color: white;
+    font-style: italic;
+    font-weight:
+
+} */
+
+
+input[type="email"]::-webkit-input-placeholder{
+  color: white;
+  font-style: italic;
+  font-weight: 100;
+}
+
+input[type="text"]{
+  width: 200px;
+  height: 20px;
+  padding-right: 50px;
+}
+
+input[type="number"]::-webkit-input-placeholder{
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+
+input[type="submit"]{
+    margin-left: -65px;
+    height: 25px;
+    width: 65px;
+    background: none !important;
+    color: white;
+    border: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    -webkit-appearance: none;
+    padding-bottom: 4px;
+}
 /*  Media Queries  */
 
 @media (min-width: 576px){

@@ -1,12 +1,11 @@
-var upgradeTime = 1872801;
-var seconds = upgradeTime;
+let seconds = 1872801;
 function timer() {
-    var days        = Math.floor(seconds/24/60/60);
-    var hoursLeft   = Math.floor((seconds) - (days*86400));
-    var hours       = Math.floor(hoursLeft/3600);
-    var minutesLeft = Math.floor((hoursLeft) - (hours*3600));
-    var minutes     = Math.floor(minutesLeft/60);
-    var remainingSeconds = seconds % 60;
+    let days        = Math.floor(seconds/24/60/60);
+    let hoursLeft   = Math.floor((seconds) - (days*86400));
+    let hours       = Math.floor(hoursLeft/3600);
+    let minutesLeft = Math.floor((hoursLeft) - (hours*3600));
+    let minutes     = Math.floor(minutesLeft/60);
+    let remainingSeconds = seconds % 60;
     if (remainingSeconds < 10) {
         remainingSeconds = "0" + remainingSeconds;
     }
