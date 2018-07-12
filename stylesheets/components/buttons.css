@@ -34,3 +34,29 @@
   background: #89c33f;
   transition: background 0.5s ease;
 }
+
+.wishlist-button{
+  color: #33466a;
+  border: 1px solid #33466a;
+  padding: 5px 15px;
+  margin-right: 5px;
+  transition: background 0.5s ease;
+}
+
+.wishlist-button:hover{
+  color: #fff;
+  background: #33466a;
+  transition: background 0.5s ease;
+}
+
+.condition-button{
+  color: #33466a;
+  border: 1px solid #33466a;
+  padding: 5px 15px;
+}
+
+.condition-button:hover{
+  color: #fff;
+  background: #33466a;
+  transition: background 0.5s ease;
+}

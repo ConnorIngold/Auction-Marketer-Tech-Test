@@ -231,17 +231,24 @@ input[type="number"]::-webkit-input-placeholder{
 
 
 input[type="submit"]{
-    margin-left: -65px;
-    height: 25px;
-    width: 65px;
-    background: none !important;
-    color: white;
-    border: 0;
-    text-transform: uppercase;
-    font-size: 16px;
-    -webkit-appearance: none;
-    padding-bottom: 4px;
+  margin-left: -65px;
+  height: 25px;
+  width: 65px;
+  background: none !important;
+  color: white;
+  border: 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  -webkit-appearance: none;
+  padding-bottom: 4px;
 }
+
+.more-buttons{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
 /*  Media Queries  */
 
 @media (min-width: 576px){
