@@ -68,24 +68,7 @@ footer{
   left: 0;
   right: 0;
 }
-/* .inner-first-section{
-  color: white;
-  display: flex;
-  justify-content: center;
-}
 
-.first-section{
-  width: 100%;
-  height: 50%;
-  padding: 10px;
-  background-color: #33466a;
+.legal a{
+  color: #000 !important;
 }
-
-.second-section{
-  width: 100%;
-  height: 50%;
-}
-
-.email-address-form{
-  background-color: transparent;
-} */

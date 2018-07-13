@@ -62,7 +62,6 @@ section{
   display: inline-block;
 }
 
-
 .thumbnail{
   text-align: center;
   color: #575757;
@@ -121,7 +120,7 @@ table {
 
 .data{
   font-size: 12px;
-};
+}
 
 table, th{
   border: 1px;
@@ -129,7 +128,7 @@ table, th{
 }
 
 tr{
-   border: 1px solid #f1f1f1;
+  border: 1px solid #f1f1f1;
 }
 
 th{
@@ -193,6 +192,7 @@ td{
   display: flex;
   padding-left: 20px;
 }
+
 .email-submit{
   background-color: transparent;
   border: 0px;
