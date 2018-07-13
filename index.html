@@ -14,6 +14,7 @@
   <link rel="shortcut icon" type="image/png" href="https://www.auctionmarketer.co.uk/static/images/AM-Fav.png"/>
   <link rel="shortcut icon" type="image/png" href="https://www.auctionmarketer.co.uk/static/images/AM-Fav.png"/>
   <script type="text/javascript" src="scripts/countdown.js"></script>
+
   <title>Auction Marketer</title>
 </head>
 
@@ -62,7 +63,12 @@
       <!-- just adding some space between the nav bar and the main content -->
       <div class="inner-wrapper">
         <div class="image-wrapper">
-          <img src="images/lot_image.jpg" alt="">
+          <img src="images/lot_image.jpg" alt="" id="myImg">
+          <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+          </div>
           <div class="thumbnail">
             <img src="images/lot_image_thumbnail.jpg" alt="">
             <img src="images/lot_image_thumbnail.jpg" alt="">
@@ -208,8 +214,7 @@
       </div>
   </footer>
 
-
-
+  <script type="text/javascript" src="scripts/click-to-enlarge.js"></script>
 
 </body>
 </html>
