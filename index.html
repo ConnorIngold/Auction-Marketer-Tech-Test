@@ -14,11 +14,12 @@
   <link rel="shortcut icon" type="image/png" href="https://www.auctionmarketer.co.uk/static/images/AM-Fav.png"/>
   <link rel="shortcut icon" type="image/png" href="https://www.auctionmarketer.co.uk/static/images/AM-Fav.png"/>
   <script type="text/javascript" src="scripts/countdown.js"></script>
-
+  <script type="text/javascript" src="scripts/zoom.js"></script>
   <title>Auction Marketer</title>
 </head>
 
 <body>
+
   <header>
     <div class="header">
       <div class="buttons">
@@ -63,7 +64,7 @@
       <!-- just adding some space between the nav bar and the main content -->
       <div class="inner-wrapper">
         <div class="image-wrapper">
-          <img src="images/lot_image.jpg" alt="" id="myImg">
+            <img src="images/lot_image.jpg" id="myImg">
           <div id="myModal" class="modal">
             <span class="close">&times;</span>
             <img class="modal-content" id="img01">
@@ -72,7 +73,6 @@
           <div class="thumbnail">
             <img src="images/lot_image_thumbnail.jpg" alt="">
             <img src="images/lot_image_thumbnail.jpg" alt="">
-            <p>HOVER TO ZOOM IN</p>
             <p>CLICK TO VIEW ENLARGED IMAGE</p>
           </div>
         </div>
@@ -169,8 +169,9 @@
       <div class="left-wrapper">
         <h2 class="footer-h2"><strong>AUCTION</strong> MARKETER</h2>
           <ul>
-            <li>Telephone: 01234 567890</p>
-            <li>Email: info@auctionmarketer.com</p>
+              <li>Telephone: <a href="tel:1234567890">1234 567890</a></p>
+              <li>Email: <a href="mailto:info@auctionmarketer.com">info@auctionmarketer.com</a></p>
+            </a>
           </ul>
       </div>
 
@@ -213,6 +214,10 @@
         </div>
       </div>
   </footer>
+
+
+
   <script type="text/javascript" src="scripts/click-to-enlarge.js"></script>
+
 </body>
 </html>
